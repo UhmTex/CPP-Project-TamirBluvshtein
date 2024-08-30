@@ -1,0 +1,64 @@
+<Graph>
+    <Node name="A">
+        <Arc target="B"/>
+        <Arc target="C"/>
+    </Node>
+    <Node name="B">
+        <Arc target="A"/>
+        <Arc target="D"/>
+        <Arc target="E"/>
+    </Node>
+    <Node name="C">
+        <Arc target="A"/>
+        <Arc target="F"/>
+    </Node>
+    <Node name="D">
+        <Arc target="B"/>
+        <Arc target="G"/>
+    </Node>
+    <Node name="E">
+        <Arc target="B"/>
+        <Arc target="H"/>
+    </Node>
+    <Node name="F">
+        <Arc target="C"/>
+        <Arc target="I"/>
+    </Node>
+    <Node name="G">
+        <Arc target="D"/>
+        <Arc target="J"/>
+    </Node>
+    <Node name="H">
+        <Arc target="E"/>
+        <Arc target="K"/>
+    </Node>
+    <Node name="I">
+        <Arc target="F"/>
+        <Arc target="L"/>
+    </Node>
+    <Node name="J">
+        <Arc target="G"/>
+        <Arc target="M"/>
+    </Node>
+    <Node name="K">
+        <Arc target="H"/>
+        <Arc target="N"/>
+    </Node>
+    <Node name="L">
+        <Arc target="I"/>
+        <Arc target="O"/>
+    </Node>
+    <Node name="M">
+        <Arc target="J"/>
+        <Arc target="P"/>
+    </Node>
+    <Node name="N">
+        <Arc target="K"/>
+    </Node>
+    <Node name="O">
+        <Arc target="L"/>
+    </Node>
+    <Node name="P">
+        <Arc target="M"/>
+    </Node>
+</Graph>
